@@ -1,0 +1,17 @@
+Bon Stay
+
+Description:
+
+Bon Stay is a hotel booking application wherein, you can search the available hotels and the details of the available rooms provided by each hotel. Using MEAN stack technology, this application is implemented.
+
+
+User Stories :
+
+US-01 - Signup
+US-02 - Profile creation, Verification of User's Identity
+US-03 - Login/Logout
+US-04 - Display/Search Hotel details
+US-05 - Book a room
+US-06 - Add payment details
+US-07 - Make payments
+US-08 - Download Invoice
