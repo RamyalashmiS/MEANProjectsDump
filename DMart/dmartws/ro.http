@@ -1,0 +1,11 @@
+
+POST http://localhost:1050/checkout
+Content-Type: application/json
+
+{
+    
+    "userEmailId" : "john@gmail.com",
+    "orderedProducts":"Adidas Running Men Lite",
+    "quantity": 2 ,  
+    "totalPrice" : 0
+}

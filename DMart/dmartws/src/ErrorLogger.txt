@@ -1,0 +1,30 @@
+Tue Jul 27 2021 14:42:06 GMT+0530 (India Standard Time) - ReferenceError: Db is not defined
+    at Object.exports.setupDb (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\src\model\dbsetup.js:15:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\src\routes\routing.js:9:23
+Tue Jul 27 2021 14:45:10 GMT+0530 (India Standard Time) - ReferenceError: Db is not defined
+    at Object.exports.setupDb (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\src\model\dbsetup.js:15:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\src\routes\routing.js:9:23
+Tue Jul 27 2021 14:46:19 GMT+0530 (India Standard Time) - ValidationError: UserCollection validation failed: phoneNumber: Path `phoneNumber` is required.
+    at model.Document.invalidate (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongoose\lib\document.js:2760:32)
+    at C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongoose\lib\document.js:2552:17
+    at C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+Tue Jul 27 2021 14:50:40 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: eMartDB.UserCollection index: emailId_1 dup key: { emailId: "mani@infy.com" }
+    at OrderedBulkOperation.handleWriteError (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\bulk\common.js:1352:9)
+    at resultHandler (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\bulk\common.js:579:23)
+    at handler (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:365:28)
+    at processIncomingData (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\manimozhi.murugan\Desktop\us04 new\BackEnd\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:751:22)
+    at Socket.emit (node:events:365:28)
+    at addChunk (node:internal/streams/readable:314:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
